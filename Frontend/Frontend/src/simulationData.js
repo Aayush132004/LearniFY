@@ -1,0 +1,38 @@
+export const allSimulations = {
+  physics: [
+    { id: 'forces-and-motion-basics', name: 'Forces & Motion', embedUrl: 'https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html' },
+    { id: 'energy-skate-park', name: 'Energy Skate Park', embedUrl: 'https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html' },
+    { id: 'gravity-and-orbits', name: 'Gravity and Orbits', embedUrl: 'https://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_en.html' },
+    { id: 'projectile-motion', name: 'Projectile Motion', embedUrl: 'https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html' },
+    { id: 'waves-intro', name: 'Waves Intro', embedUrl: 'https://phet.colorado.edu/sims/html/waves-intro/latest/waves-intro_en.html' },
+    { id: 'bending-light', name: 'Bending Light (Optics)', embedUrl: 'https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html' },
+    { id: 'circuit-construction-kit-dc', name: 'DC Circuit Builder', embedUrl: 'https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_en.html' },
+    { id: 'faradays-law', name: 'Faraday\'s Law (EMI)', embedUrl: 'https://phet.colorado.edu/sims/html/faradays-law/latest/faradays-law_en.html' },
+    { id: 'capacitor-lab-basics', name: 'Capacitor Lab', embedUrl: 'https://phet.colorado.edu/sims/html/capacitor-lab-basics/latest/capacitor-lab-basics_en.html' },
+    { id: 'rutherford-scattering', name: 'Rutherford Scattering', embedUrl: 'https://phet.colorado.edu/sims/html/rutherford-scattering/latest/rutherford-scattering_en.html' },
+  ],
+  chemistry: [
+    { id: 'build-an-atom', name: 'Build an Atom', embedUrl: 'https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_en.html' },
+    { id: 'balancing-chemical-equations', name: 'Balancing Equations', embedUrl: 'https://phet.colorado.edu/sims/html/balancing-chemical-equations/latest/balancing-chemical-equations_en.html' },
+    { id: 'states-of-matter-basics', name: 'States of Matter', embedUrl: 'https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html' },
+    { id: 'acid-base-solutions', name: 'Acid-Base Solutions', embedUrl: 'https://phet.colorado.edu/sims/html/acid-base-solutions/latest/acid-base-solutions_en.html' },
+    { id: 'gas-properties', name: 'Gas Properties', embedUrl: 'https://phet.colorado.edu/sims/html/gas-properties/latest/gas-properties_en.html' },
+    { id: 'reactants-products-leftovers', name: 'Reactants & Products', embedUrl: 'https://phet.colorado.edu/sims/html/reactants-products-and-leftovers/latest/reactants-products-and-leftovers_en.html' },
+    { id: 'molecule-shapes', name: 'Molecule Shapes', embedUrl: 'https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_en.html' },
+    { id: 'ph-scale', name: 'pH Scale', embedUrl: 'https://phet.colorado.edu/sims/html/ph-scale/latest/ph-scale_en.html' },
+    { id: 'molarity', name: 'Molarity', embedUrl: 'https://phet.colorado.edu/sims/html/molarity/latest/molarity_en.html' },
+    { id: 'build-a-molecule', name: 'Build a Molecule', embedUrl: 'https://phet.colorado.edu/sims/html/build-a-molecule/latest/build-a-molecule_en.html' },
+  ],
+  maths: [
+    { id: 'graphing-quadratics', name: 'Graphing Quadratics', embedUrl: 'https://phet.colorado.edu/sims/html/graphing-quadratics/latest/graphing-quadratics_en.html' },
+    { id: 'trig-tour', name: 'Trigonometry Tour', embedUrl: 'https://phet.colorado.edu/sims/html/trig-tour/latest/trig-tour_en.html' },
+    { id: 'vector-addition', name: 'Vector Addition', embedUrl: 'https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_en.html' },
+    { id: 'calculus-grapher', name: 'Calculus Grapher', embedUrl: 'https://phet.colorado.edu/sims/html/calculus-grapher/latest/calculus-grapher_en.html' },
+    { id: 'area-builder', name: 'Area Builder', embedUrl: 'https://phet.colorado.edu/sims/html/area-builder/latest/area-builder_en.html' },
+    { id: 'graphing-lines', name: 'Graphing Lines', embedUrl: 'https://phet.colorado.edu/sims/html/graphing-lines/latest/graphing-lines_en.html' },
+    { id: 'function-builder', name: 'Function Builder', embedUrl: 'https://phet.colorado.edu/sims/html/function-builder/latest/function-builder_en.html' },
+    { id: 'plinko-probability', name: 'Plinko Probability', embedUrl: 'https://phet.colorado.edu/sims/html/plinko-probability/latest/plinko-probability_en.html' },
+    { id: 'fourier-making-waves', name: 'Fourier: Making Waves', embedUrl: 'https://phet.colorado.edu/sims/html/fourier-making-waves/latest/fourier-making-waves_en.html' },
+    { id: 'estimation', name: 'Estimation', embedUrl: 'https://phet.colorado.edu/sims/html/estimation/latest/estimation_en.html' },
+  ]
+};
