@@ -61,7 +61,7 @@ export default function AIAnalysisPage() {
         const currentQuestion = filteredQuestions[currentIndex];
 
         try {
-            const response = await fetch(`${import.meta.env.VITE_API_URL/subjective/analyze}`, {
+            const response = await fetch(`${import.meta.env.VITE_API_URL}/subjective/analyze`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
