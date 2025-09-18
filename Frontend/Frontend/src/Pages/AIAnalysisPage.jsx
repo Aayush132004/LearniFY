@@ -23,7 +23,7 @@ export default function AIAnalysisPage() {
         const fetchQuestions = async () => {
             try {
                 setIsFetching(true);
-                const response = await fetch(`http://localhost:5000/subjective/problemByClass/${classId}`);
+                const response = await fetch(`http://import.meta.env.VITE_API_URL/subjective/problemByClass/${classId}`);
                 const result = await response.json();
                 if (result.success) {
                     setAllQuestions(result.data);
@@ -59,7 +59,7 @@ export default function AIAnalysisPage() {
         const currentQuestion = filteredQuestions[currentIndex];
 
         try {
-            const response = await fetch('http://localhost:5000/subjective/analyze', {
+            const response = await fetch('http://import.meta.env.VITE_API_URL/subjective/analyze', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
