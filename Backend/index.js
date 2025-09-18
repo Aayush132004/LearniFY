@@ -14,12 +14,7 @@ require("dotenv").config();
 // })
 
 // // --- Main Express 
-app.use(cors({
-    origin: process.env.FRONTEND_URL,
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"]
-}));
+
 
 // app.use(express.json());
 // app.use(cookieParser());
@@ -39,6 +34,12 @@ const app = express();
 app.use(cors()); // Enable cross-origin requests for development
 app.use(express.json()); // Enable parsing of JSON request bodies
 const PORT = process.env.PORT || 5000;
+app.use(cors({
+    origin: process.env.FRONTEND_URL,
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"]
+}));
 
 // --- INITIALIZE GEMINI ---
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
